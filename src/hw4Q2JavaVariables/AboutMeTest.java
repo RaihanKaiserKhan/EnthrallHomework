@@ -36,6 +36,6 @@ public class AboutMeTest {
 		aboutAlex.gender = 'M';
 		aboutAlex.allData = true;
 		aboutAlex.aboutMe();
-		//test code
+		
 	}
 }
