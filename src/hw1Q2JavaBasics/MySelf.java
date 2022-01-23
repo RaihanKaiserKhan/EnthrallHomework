@@ -1,7 +1,5 @@
 package hw1Q2JavaBasics;
 
-import hw3Q2JavaVariables.AboutMe;
-
 /*
  * Naming convention
  * Project name starts with Upper Case. As example--> HomeWorkJava
@@ -14,7 +12,7 @@ public class MySelf {
 	// Represented by:public static void main(String[] args) {}
 
 	public static void main(String[] args) {
-System.out.println("\"raihan\"");
-		
+		System.out.println("\"Raihan Khan\"");
+
 	}
 }
