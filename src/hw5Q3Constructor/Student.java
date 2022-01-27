@@ -26,7 +26,7 @@ public class Student {
 
 	public void student(String stName, int stID, boolean isProgrammer, char sex, float grade) {
 
-		System.out.println("from method Student Name:" + stName + ", ID:" + stID + ", Sex:" + sex + ", Grade:" + grade
+		System.out.println("Student Name:" + stName + ", ID:" + stID + ", Sex:" + sex + ", Grade:" + grade
 				+ " and Java Programmer? Ans:" + isProgrammer);
 	}
 }

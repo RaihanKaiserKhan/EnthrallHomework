@@ -1,12 +1,14 @@
 package hw3Q2JavaVariables;
 
 public class AboutMe {
-	public String informationAboutMe; // here string is declared as a reference variable.
-	public String name = "Raihan Khan";// initialize the string as a reference variable.
+	// here string is declared as a reference variable.
+	public String informationAboutMe;
+	// The variables are initialized.
+	public String name = "Raihan Khan";
 	public String Address = "505 Queens ave\nQueens,NY";
-	public byte age = 32; // variable is initialized here because I assign the value of the variable age.
-	public short timeLivedinUsa = 12; // variable is initialized.
-	public long phoneNo = 13476410023l; // variable is initialized.
+	public byte age = 32;
+	public short timeLivedinUsa = 12;
+	public long phoneNo = 13476410023l;
 	public int zip = 11419;
 	public float height = 5.5f;
 	public double weight = 150.5;
