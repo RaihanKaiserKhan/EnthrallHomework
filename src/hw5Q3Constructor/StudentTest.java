@@ -5,7 +5,6 @@ public class StudentTest {
 		// Default constructor is initialized.
 		Student info = new Student();
 		// Parameterized constructor is initialized.
-		Student myInfo = new Student("Raihan", 6600, true, 'M', 3.976f);
-		info.student("sunny", 33, false, 'm', 2.333f);
+		Student myInfo = new Student("Raihan Khan", 6600, true, 'M', 3.976f);
 	}
 }
