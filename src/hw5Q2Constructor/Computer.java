@@ -16,7 +16,6 @@ public class Computer {
 
 	// Parameterized constructor is declared.
 	public Computer(String brand, String model, String operatingSystem, int price, boolean madeInUsa, char grade) {
-		super();
 		this.brand = brand;
 		this.model = model;
 		this.operatingSystem = operatingSystem;
