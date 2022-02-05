@@ -1,7 +1,7 @@
 package hw8Q3Abstraction;
 
-public class ColumbiaUniverdsity {
-	public ColumbiaUniverdsity() { // Default constructor.
+public class ColumbiaUniversity {
+	public ColumbiaUniversity() { // Default constructor.
 
 	}
 	// public abstract void chemistry();
