@@ -10,16 +10,21 @@ public class AnimalTest {
 		mammal.animalInfo(); // Mammal (Reptile & Birds also) is a Child Class of Animal Class.
 		System.out.println("*****************************************");
 		Reptile reptile = new Reptile();
-		reptile.reptileInfo();// Here is an example of single inheritance.
-		reptile.animalInfo();// A derived class "Reptile", inherits the properties from a single
-								// parent(Animal) class.
+		reptile.reptileInfo();
+		reptile.animalInfo();
+		/*
+		 * A derived class "Reptile", inherits the properties from a single
+		 * parent(Animal) class.Here is an example of single inheritance.
+		 */
 		System.out.println("*****************************************");
 		Birds birds = new Birds();
 		birds.birdsInfo();
 		birds.animalInfo();
-		// More than one derived class is created from a single parent class.
-		// Mammal,Reptile & Birds extends to one base class Animal.
-		// Example of Hierarchical Inheritance.
+		/*
+		 * More than one derived class is created from a single parent
+		 * class.Mammal,Reptile & Birds extends to one base class Animal. Example of
+		 * Hierarchical Inheritance.
+		 */
 		System.out.println("*****************************************");
 		Dog dog = new Dog();
 		dog.dogInfo();
@@ -43,9 +48,14 @@ public class AnimalTest {
 		bullDog.animalInfo();
 		System.out.println("*****************************************");
 		Cobra cobra = new Cobra();
-		cobra.cobraInfo(); // Cobra extends Snake, Snake extends Reptile, Reptile extends Animal.
-		cobra.snakeInfo();// A derived class is created from another derived class.
-		cobra.reptileInfo();// This is called Multilevel inheritance.
+		/*
+		 * Cobra extends Snake, Snake extends Reptile, Reptile extends Animal.A derived
+		 * class is created from another derived class.This is called Multilevel
+		 * inheritance.
+		 */
+		cobra.cobraInfo();
+		cobra.snakeInfo();
+		cobra.reptileInfo();
 		cobra.animalInfo();
 	}
 }
