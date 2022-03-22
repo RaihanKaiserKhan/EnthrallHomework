@@ -13,4 +13,9 @@ public class ColumbiaUniversity extends MedicalSchool {
 	public void biology() {
 		System.out.println("Printing from the implemented/non-abstract  method");
 	}
+	@Override
+	public void anatomyLab() {
+		// TODO Auto-generated method stub
+		
+	}
 }
