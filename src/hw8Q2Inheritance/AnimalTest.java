@@ -50,8 +50,7 @@ public class AnimalTest {
 		Cobra cobra = new Cobra();
 		/*
 		 * Cobra extends Snake, Snake extends Reptile, Reptile extends Animal.A derived
-		 * class is created from another derived class.This is called Multilevel
-		 * inheritance.
+		 * class is created from another derived class.This is called Multilevel inheritance.
 		 */
 		cobra.cobraInfo();
 		cobra.snakeInfo();
